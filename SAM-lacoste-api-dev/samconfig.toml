@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "lacoste-api-dev"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+image_repositories = ["LacosteapidevProductFunction=601772211076.dkr.ecr.us-east-1.amazonaws.com/lacoste-api-dev"]
+disable_rollback = true
